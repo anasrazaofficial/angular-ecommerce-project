@@ -1,0 +1,8 @@
+<h5 class="font-weight-semi-bold mb-4">Filter by color</h5>
+<form>
+    <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3"
+        *ngFor="let colours of coloursArray; let i=index">
+        <span class="hoverOnPrice" [ngClass]="{'selected-color' : i==selectedItem}"
+            (click)="getColourByFilter(colours.colour,i)">{{colours.colour}}</span>
+    </div>
+</form>

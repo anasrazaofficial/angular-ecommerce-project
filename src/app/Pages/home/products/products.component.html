@@ -1,0 +1,18 @@
+<br>
+
+<div class="container-fluid" id="products">
+    <div class="text-center mb-4">
+        <h2 class="section-title px-5" *ngIf="allCategory"><span class="px-2">{{productName}}</span></h2>
+        <h2 class="section-title px-5" *ngIf="categoryFound"><span class="px-2">{{category}}</span></h2>
+    </div>
+    <div class="col-lg-6 col-6 text-left">
+        <form>
+            <div class="input-group">
+                <input (keyup)="serach($event.target)" type="text" class="form-control" placeholder="Search by name"
+                    style="left: 50%;">
+            </div>
+        </form>
+    </div>
+    <br>
+    <app-product-card [productList]="product" class="row" style="padding: auto;"></app-product-card>
+</div>

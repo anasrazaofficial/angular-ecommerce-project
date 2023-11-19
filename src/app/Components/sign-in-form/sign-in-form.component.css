@@ -1,0 +1,94 @@
+.inputValidators {
+    color: red;
+    text-align: center;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 500px;
+    box-shadow: 0px 9px 26px 5px rgba(153, 153, 153, 0.67);
+}
+
+.headings {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.formBody {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input {
+    border-bottom: 1px solid #000000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 17px;
+    width: 350px;
+    padding: 8px 10px;
+    outline: none;
+}
+
+.info {
+    /* margin: 80px 0; */
+}
+
+.formHead {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 30px;
+}
+
+button {
+    font-family: inherit;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+    border: 1px solid #D19C97;
+    background-color: #D19C97;
+    padding: 16px 32px;
+    width: 47%;
+    bottom: -110px;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #c5837c;
+    border-color: #c17a74;
+}
+
+button:active {
+    color: #fff;
+    background-color: #c5837c;
+    border-color: #c17a74;
+}
+
+button:focus {
+    outline: none;
+    color: #fff;
+    background-color: #c5837c;
+    border-color: #c17a74;
+    box-shadow: 0 0 0 0.2rem rgb(183 138 135 / 50%);
+}
+
+.align-bottom {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: underline;
+    font-family: "Poppins", sans-serif;
+}
+
+.align-bottom :hover {
+    cursor: pointer;
+    color: blue;
+}

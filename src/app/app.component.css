@@ -1,0 +1,18 @@
+.top {
+    position: relative;
+    bottom: 39px;
+    float: right;
+    right: 20px;
+    background: #d19c97;
+    border: transparent;
+}
+
+.sidebar {
+    display: contents;
+}
+
+@media (max-width:700px) {
+    .sidebar{
+        display: none;
+    }
+}

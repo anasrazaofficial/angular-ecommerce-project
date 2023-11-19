@@ -1,0 +1,600 @@
+{
+  "product": [
+    {
+      "imgSrc": "assets/img/shirt-1.jpg",
+      "name": "Formal Shirt",
+      "price": 90,
+      "id": 1,
+      "quantity": 1,
+      "category": "Shirts",
+      "range": 100,
+      "colour": "Blue",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/shirt-2.jpg",
+      "name": "Casual Shirt",
+      "price": 70,
+      "id": 2,
+      "quantity": 1,
+      "category": "Shirts",
+      "range": 100,
+      "colour": "Red",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/shirt-3.jpg",
+      "name": "Fancy Shirt",
+      "price": 120,
+      "id": 3,
+      "quantity": 1,
+      "category": "Shirts",
+      "range": 200,
+      "colour": "White",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-1.jpg",
+      "name": "Plain White Frock",
+      "price": 130,
+      "id": 4,
+      "quantity": 1,
+      "category": "Frock",
+      "range": 200,
+      "colour": "White",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-2.jpg",
+      "name": "Stylish Shirt",
+      "price": 410,
+      "id": 5,
+      "quantity": 1,
+      "category": "Shirts",
+      "range": 500,
+      "colour": "White",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-3.jpg",
+      "name": "Leather Jacket",
+      "price": 450,
+      "id": 6,
+      "quantity": 1,
+      "category": "Jackets",
+      "range": 500,
+      "colour": "Black",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-4.jpg",
+      "name": "Swim Wear",
+      "price": 110,
+      "id": 7,
+      "quantity": 1,
+      "category": "Swim wear",
+      "range": 200,
+      "colour": "Black",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-5.jpg",
+      "name": "Colorful Stylish Shirt (F)",
+      "price": 60,
+      "id": 8,
+      "quantity": 1,
+      "category": "Shirts",
+      "range": 100,
+      "colour": "White",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-6.jpg",
+      "name": "Fancy Coat (M)",
+      "price": 150,
+      "id": 9,
+      "quantity": 1,
+      "category": "Coat",
+      "range": 200,
+      "colour": "Black",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-7.jpg",
+      "name": "Fancy Coat (F)",
+      "price": 250,
+      "id": 10,
+      "quantity": 1,
+      "category": "Coat",
+      "range": 300,
+      "colour": "Black",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-8.jpg",
+      "name": "Colorful Stylish Shirt (Kid)",
+      "price": 480,
+      "id": 11,
+      "quantity": 1,
+      "category": "Shirts",
+      "range": 500,
+      "colour": "Blue",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-9.jpg",
+      "name": "Sleep Wear (M)",
+      "price": 280,
+      "id": 12,
+      "quantity": 1,
+      "category": "Sleep wear",
+      "range": 300,
+      "colour": "White",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-10.jpg",
+      "name": "Sleep Wear (F)",
+      "price": 490,
+      "id": 13,
+      "quantity": 1,
+      "category": "Sleep wear",
+      "range": 500,
+      "colour": "Black",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-11.jpg",
+      "name": "Leather Black Bag",
+      "price": 380,
+      "id": 14,
+      "quantity": 1,
+      "category": "Bags",
+      "range": 400,
+      "colour": "Black",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/cat-5.jpg",
+      "name": "Hand Bag",
+      "price": 210,
+      "id": 15,
+      "quantity": 1,
+      "category": "Bags",
+      "range": 300,
+      "colour": "Black",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-12.jpg",
+      "name": "Shoes",
+      "price": 330,
+      "id": 16,
+      "quantity": 1,
+      "category": "Shoes",
+      "range": 400,
+      "colour": "Green",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/cat-6.jpg",
+      "name": "Shoes",
+      "price": 310,
+      "id": 17,
+      "quantity": 1,
+      "category": "Shoes",
+      "range": 400,
+      "colour": "Black",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/img/product-13.jpg",
+      "name": "Black Frock",
+      "price": 100,
+      "id": 18,
+      "quantity": 1,
+      "category": "Frock",
+      "range": 100,
+      "colour": "Black",
+      "sizes": [
+        {
+          "size_small": "S"
+        },
+        {
+          "size_medium": "M"
+        },
+        {
+          "size_large": "L"
+        },
+        {
+          "size_xlarge": "XL"
+        }
+      ]
+    }
+  ],
+  "sideBar": [
+    {
+      "item": "Shirts"
+    },
+    {
+      "item": "Swim wear"
+    },
+    {
+      "item": "Sleep wear"
+    },
+    {
+      "item": "Coat"
+    },
+    {
+      "item": "Frock"
+    },
+    {
+      "item": "Jackets"
+    },
+    {
+      "item": "Bags"
+    },
+    {
+      "item": "Shoes"
+    }
+  ],
+  "carousel": [
+    {
+      "img": "assets/img/carousel-1.jpg",
+      "info": "REASONABLE PRICE"
+    },
+    {
+      "img": "assets/img/carousel-2.jpg",
+      "info": "FASHIONABLE PRICE"
+    }
+  ],
+  "vendor": [
+    {
+      "img": "assets/img/vendor-1.jpg"
+    },
+    {
+      "img": "assets/img/vendor-2.jpg"
+    },
+    {
+      "img": "assets/img/vendor-3.jpg"
+    },
+    {
+      "img": "assets/img/vendor-4.jpg"
+    },
+    {
+      "img": "assets/img/vendor-5.jpg"
+    },
+    {
+      "img": "assets/img/vendor-6.jpg"
+    },
+    {
+      "img": "assets/img/vendor-7.jpg"
+    },
+    {
+      "img": "assets/img/vendor-8.jpg"
+    },
+    {
+      "img": "assets/img/vendor-9.png"
+    },
+    {
+      "img": "assets/img/vendor-10.jpg"
+    },
+    {
+      "img": "assets/img/vendor-11.jpg"
+    },
+    {
+      "img": "assets/img/vendor-12.png"
+    }
+  ],
+  "pricesOfShop": [
+    {
+      "price": "$0 - $100",
+      "range": 100
+    },
+    {
+      "price": "$100 - $200",
+      "range": 200
+    },
+    {
+      "price": "$200 - $300",
+      "range": 300
+    },
+    {
+      "price": "$300 - $400",
+      "range": 400
+    },
+    {
+      "price": "$400 - $500",
+      "range": 500
+    }
+  ],
+  "coloursOfShop": [
+    {
+      "colour": "Black"
+    },
+    {
+      "colour": "White"
+    },
+    {
+      "colour": "Red"
+    },
+    {
+      "colour": "Blue"
+    },
+    {
+      "colour": "Green"
+    }
+  ],
+  "cartProduct": [],
+  "orderPlaced": [
+    {
+      "obj": {
+        "email": "abc@abc",
+        "mobileNo": 1212
+      },
+      "Subtotal": 140,
+      "shippingPrice": 4.2,
+      "total": 144.2,
+      "date": "2023-05-10T18:10:04.814Z",
+      "id": 1
+    },
+    {
+      "obj": {
+        "email": "aaa@gmail.com",
+        "mobileNo": 111
+      },
+      "Subtotal": 400,
+      "shippingPrice": 12,
+      "total": 412,
+      "date": "2023-11-13T18:24:28.836Z",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "a@aa",
+      "mobileNo": 1,
+      "id": 1
+    },
+    {
+      "email": "abc@abc",
+      "mobileNo": 1212,
+      "couponCode": "6s41o",
+      "id": 2
+    },
+    {
+      "email": "aaa@gmail.com",
+      "mobileNo": 111,
+      "id": 3
+    }
+  ],
+  "currentUser": [
+    {
+      "email": "aaa@gmail.com",
+      "mobileNo": 111,
+      "couponCode": "gd7qh",
+      "id": 1
+    }
+  ]
+}

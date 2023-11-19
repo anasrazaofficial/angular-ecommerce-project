@@ -1,0 +1,23 @@
+<form [formGroup]="myForm" class="form">
+    <h2 class="formHead">Sign In</h2>
+    <div class="formBody">
+        <div class="info">
+            <h5 class="headings">E-mail</h5>
+            <input type="text" formControlName="email" placeholder="Enter your email address" class="input">
+        </div>
+        <div class=" inputValidators"
+            *ngIf="myForm.get('email')?.invalid && (myForm.get('email')?.dirty || myForm.get('email')?.touched)">Please
+            provide email.</div>
+        <br><br><br>
+        <div class="info">
+            <h5 class="headings">Phone number</h5>
+            <input type="number" formControlName="mobileNo" placeholder="Enter your Phone number" class="input">
+        </div>
+        <div class="inputValidators"
+            *ngIf="myForm.get('mobileNo')?.invalid && (myForm.get('mobileNo')?.dirty || myForm.get('mobileNo')?.touched)">
+            Please provide phone number.
+        </div>
+        <button class="button" [disabled]="myForm.invalid" (click)="signIn()">Sign in</button>
+    </div>
+    <span class="align-bottom" (click)="goTologinForm()">I don't have any account.</span>
+</form>

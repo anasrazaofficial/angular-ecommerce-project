@@ -1,0 +1,175 @@
+<div class="container-fluid pt-5">
+    <div class="row px-xl-5">
+        <div class="col-lg-8">
+            <div class="mb-4">
+                <h4 class="font-weight-semi-bold mb-4">Billing Address</h4>
+                <div class="row" [formGroup]="myForm">
+                    <div class="col-md-6 form-group">
+                        <label>First Name</label>
+                        <input class="form-control" type="text" placeholder="Enter your first name"
+                            formControlName="firstName">
+                        <span class="inputValidators" style="color: red;"
+                            *ngIf="myForm.get('firstName')?.invalid && (myForm.get('firstName')?.dirty || myForm.get('firstName')?.touched)">
+                            Please provide First Name.
+                        </span>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label>Last Name</label>
+                        <input class="form-control" type="text" placeholder="Enter your last name"
+                            formControlName="lastName">
+                        <span class="inputValidators" style="color: red;"
+                            *ngIf="myForm.get('lastName')?.invalid && (myForm.get('lastName')?.dirty || myForm.get('lastName')?.touched)">
+                            Please provide Last Name.
+                        </span>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label>E-mail</label>
+                        <input class="form-control" type="text" placeholder="Enter your email address"
+                            formControlName="email">
+                        <span class="inputValidators" style="color: red;"
+                            *ngIf="myForm.get('email')?.invalid && (myForm.get('email')?.dirty || myForm.get('email')?.touched)">
+                            Please provide correct E-mail.
+                        </span>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label>Mobile no</label>
+                        <input class="form-control" type="number" placeholder="Enter your mobile number"
+                            formControlName="mobileNo">
+                        <span class="inputValidators" style="color: red;"
+                            *ngIf="myForm.get('mobileNo')?.invalid && (myForm.get('mobileNo')?.dirty || myForm.get('mobileNo')?.touched)">
+                            Please provide Moblie number.
+                        </span>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label>Address</label>
+                        <input class="form-control" type="text" placeholder="Enter your residential address"
+                            formControlName="address">
+                        <span class="inputValidators" style="color: red;"
+                            *ngIf="myForm.get('address')?.invalid && (myForm.get('address')?.dirty || myForm.get('address')?.touched)">
+                            Please provide Address.
+                        </span>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label>Country</label>
+                        <span class="hoverOnCountry">
+                            <select class="form-control" formControlName="country">
+                                <option selected>Pakistan/ پاکستان</option>
+                                <option>Turkey/ ترکی</option>
+                                <option>China / چین</option>
+                                <option>Saudia Arabia / سعودی عرب</option>
+                            </select>
+                            <span class="inputValidators" style="color: red;"
+                                *ngIf="myForm.get('country')?.invalid && (myForm.get('country')?.dirty || myForm.get('country')?.touched)">
+                                Please select Country.
+                            </span>
+                        </span>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label>State</label>
+                        <input class="form-control" type="text" placeholder="Enter your state" formControlName="state">
+                        <span class="inputValidators" style="color: red;"
+                            *ngIf="myForm.get('state')?.invalid && (myForm.get('state')?.dirty || myForm.get('state')?.touched)">
+                            Please provice State.
+                        </span>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label>City</label>
+                        <input class="form-control" type="text" placeholder="Enter your city" formControlName="city">
+                        <span class="inputValidators" style="color: red;"
+                            *ngIf="myForm.get('city')?.invalid && (myForm.get('city')?.dirty || myForm.get('city')?.touched)">
+                            Please provide city.
+                        </span>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label>ZIP Code</label>
+                        <input class="form-control" type="number" placeholder="Enter ZIP Code"
+                            formControlName="zipCode">
+                        <br>
+                        <span class="inputValidators" style="color: red;"
+                            *ngIf="myForm.get('zipCode')?.invalid && (myForm.get('zipCode')?.dirty || myForm.get('zipCode')?.touched)">
+                            Please enter zip code.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card border-secondary mb-5">
+                <div class="card-header bg-secondary border-0">
+                    <h4 class="font-weight-semi-bold m-0">Order Total</h4>
+                </div>
+                <div class="card-body">
+                    <hr class="mt-0">
+                    <div class="d-flex justify-content-between mb-3 pt-1">
+                        <h6 class="font-weight-medium">Subtotal</h6>
+                        <h6 class="font-weight-medium">${{sum}}</h6>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3 pt-1">
+                        <h6 class="font-weight-medium">Shipping</h6>
+                        <h6 class="font-weight-medium">${{shippingPercent}}</h6>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-medium">Discount</h6>
+                        <h6 class="font-weight-medium">${{discountedPrice}}</h6>
+                    </div>
+                </div>
+                <div class="card-footer border-secondary bg-transparent">
+                    <div class="d-flex justify-content-between mt-2">
+                        <h5 class="font-weight-bold">Total</h5>
+                        <h5 class="font-weight-bold">${{total}}</h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card border-secondary mb-5">
+                <div class="card-header bg-secondary border-0">
+                    <h4 class="font-weight-semi-bold m-0">Coupon Code</h4>
+                </div>
+                <div class="card-body">
+                    <form class="" [formGroup]="couponForm" (ngSubmit)="discount(couponForm)">
+                        <div class="input-group">
+                            <input type="text" class="form-control p-4" placeholder="Enter Coupon Code For Discount"
+                                formControlName="code">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="submit" [disabled]="couponForm.invalid">Apply
+                                    Coupon</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+
+
+            <div class="card border-secondary mb-5">
+                <div class="card-header bg-secondary border-0">
+                    <h4 class="font-weight-semi-bold m-0">Payment</h4>
+                </div>
+                <div class="card-body">
+                    <form [formGroup]="myForm">
+                        <div class="col-md-6 form-group">
+                            <select class="custom-select" formControlName="paymentMethod">
+                                <option>Paypal</option>
+                                <option>Direct Check</option>
+                                <option>Bank Transfer</option>
+                            </select>
+                            <div class="inputValidators" style="color: red;"
+                                *ngIf="myForm.get('paymentMethod')?.invalid && (myForm.get('paymentMethod')?.dirty || myForm.get('paymentMethod')?.touched)">
+                                Please provide payment method.
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer border-secondary bg-transparent">
+                    <button class="btn btn-lg btn-block btn-primary font-weight-bold my-3 py-3"
+                        (click)="orderConfirmed(myForm)" [disabled]="myForm.invalid">Place
+                        Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
